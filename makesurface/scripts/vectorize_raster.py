@@ -3,7 +3,7 @@ from rasterio import features, Affine
 from shapely.geometry import Polygon, MultiPolygon, mapping
 from fiona.crs import from_epsg
 import numpy as np
-import tools
+from . import tools
 from scipy.ndimage import zoom
 from scipy.ndimage.filters import median_filter, maximum_filter
 

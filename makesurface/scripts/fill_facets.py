@@ -1,5 +1,6 @@
-import fiona, rasterio, mercantile, tools, json, click
+import fiona, rasterio, mercantile, json, click
 from rasterio import features, Affine, coords
+from . import tools
 import numpy as np
 
 np.seterr(divide='ignore', invalid='ignore')
